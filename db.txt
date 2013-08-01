@@ -629,3 +629,23 @@ while read line
 do
         do_line $line
 done < ${FILE_NAME}
+
+查询磁盘空间小于100G的磁盘的ms列表，分pc移动，需要显示机房名称，以及相关的ms信息。
+fs_ms_realstate
+fs_server
+Goob  17:35:20
+如何区分PC平台的，还是移动平台的？
+平台-陈佳佳  17:36:43
+room_id不为空的就是pc平台
+ml_room_id不为空的是移动的
+Goob  17:38:13
+下一个问题是：room_id是机房ID吧？机房名称在哪个表里可以查到？
+平台-陈佳佳  17:39:10
+fs_server_location
+
+select * from fs_ms_realstate where free_disk < 100 order by server_id;
+select a.*, b.room_id, b.ml_room_id from fs_ms_realstate a, fs_server b where a.free_disk < 100 and a.server_id=b.server_id order by a.server_id;
+select a.*, b.room_id, b.ml_room_id, c.room_name from fs_ms_realstate a, fs_server b, fs_server_location c where a.free_disk < 100 and a.server_id=b.server_id and (b.room_id=c.room_id or b.ml_room_id=c.room_id) order by a.server_id;
+
+
+select * from fs_mobile_dat where create_time >= "2013-07-30 00:00:00" and create_time < "2013-07-31 00:00:00" and (state = 'dispatch-failed' or state = 'dispatched' or state = 'dispatching') 
