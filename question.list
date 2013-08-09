@@ -1,0 +1,122 @@
+问题1：load任务，丢失了部分任务。
+
+问题2：上海城域网，内网能够访问，公网不能访问；在公网模拟内网测试，公网是不能访问的，测试该url地址不能播放，事实上，内网是能够播放的。不是问题。
+http://222.73.131.138:80/play/EA6C8B92D1D6163E2B656E3BFF91056822BD833C.mp4
+http://222.73.20.76:80/play/EA6C8B92D1D6163E2B656E3BFF91056822BD833C.mp4
+
+问题3：磁盘丢失，导致任务丢失。广州长宽，要否通知运维。
+http://211.162.56.201:80/play/4D3DAC7BFC510F82989F8714B2335BF7759B9133.mp4
+
+问题4：已转到朱兵兵。删除任务，没有通知tuner。业务流程设计，需要整理。
+http://61.137.188.131:80/play/9A1EB8045A3158E39D004C4E3D8EE875D4F7BA41.mp4
+
+问题5：已恢复。
+http://211.162.56.194:80/play/F5DAD9C2FD3025268E3B9AA8EB7430DA79F898C2.mp4
+
+问题6：磁盘丢失，导致任务丢失。
+http://211.162.56.197:80/play/912CC48C9B10964F664D1F1A17F19278E164BE5F.mp4
+
+问题7：同问题2
+http://222.73.131.136:80/C77AA1042B048A7BA76DEF789EF011E234475E57/playlist.m3u8
+http://222.73.20.74:80/C77AA1042B048A7BA76DEF789EF011E234475E57/playlist.m3u8
+
+问题8：
+http://112.5.251.14:80/E3BEBDC07BEEFEEE9153F54E632B4449D9FE4C16/playlist.m3u8
+现在，调度恢复正常。
+http://58.254.168.85:80/E3BEBDC07BEEFEEE9153F54E632B4449D9FE4C16/playlist.m3u8
+前三个调度都没有分发，分发不够。
+
+问题9：磁盘丢失，导致任务丢失。
+http://211.162.56.201:80/00F98CFE985574B2A4F46FFDCE26ABF9B0C52CBB/playlist.m3u8
+
+问题10: macross显示已分发，MS上却没有这个任务。MS状态：可调度，不可分发？
+http://124.232.151.184:80/6411175FB023A9C8B3D4658A05DA0016A30A9A21/playlist.m3u8
+
+问题11：已恢复。
+福建移动，MS上面有该任务。
+http://112.5.251.13:80/play/ABE20D14314E92A6ED4EA8CDE2424947F19EC74C.mp4
+http://211.162.56.194:80/play/ABE20D14314E92A6ED4EA8CDE2424947F19EC74C.mp4
+
+问题12：贵州电信的用户，调度到福建移动。调度要避免指向小运营商。
+http://112.5.251.12:80/play/675E3FB4F97B6688ECFE9E446B1437BF26E60069.mp4
+
+59.53.56.101:80/play/v1/mp4/b5441cd1e3e1e57f864875c2464ccbf3.mp4?bits=491520&clifz=apad&src=1.48.0.125&f=test
+http://112.5.251.12:80/play/675E3FB4F97B6688ECFE9E446B1437BF26E60069.mp4
+
+问题13：又是长沙电信，同问题10.
+http://124.232.151.184:80/play/27D89A84EE34CECFD93EA8ECB86F4766A9FBF9D0.mp4
+该机器上没有这个任务。
+看调度恢复了没有。
+123.125.20.11/play/v1/mp4/0ef3b412a3454ef2eb5c6c1a31a78075.mp4?bits=491520&clifz=apad&src=1.68.0.125&f=test
+http://124.232.151.184:80/play/27D89A84EE34CECFD93EA8ECB86F4766A9FBF9D0.mp4
+
+问题14：福建移动，移动网外不能播放。同问题12。
+http://112.5.251.12:80/play/107C17872E48566486A4BF07AA755E1C942D26EC.mp4
+
+123.125.20.11/play/v1/mp4/dc34e8a9756e9cd3ab5608890d053a68.mp4?bits=491520&clifz=apad&src=58.82.192.125&f=test
+http://124.205.11.249:80/play/107C17872E48566486A4BF07AA755E1C942D26EC.mp4
+
+问题15：同问题12。
+http://112.5.251.13:80/play/4F9ACBF7A96573BE6C468EFECBDC551E708E01DA.mp4
+59.53.56.101:80/play/v1/mp4/db017f9797c5150a380219d02a215370.mp4?bits=491520&clifz=apad&src=42.52.0.125&f=test
+
+问题16：
+123.125.20.11/play/v1/mp4/b90e5fcbe627d8c9c111701d160d1159.mp4?bits=491520&clifz=apad&src=1.68.0.125&f=test	
+http://124.232.151.184:80/play/B0B28D9248F423CC747F1212E7BFD7B31CB4C41A.mp4
+http://124.232.151.184:80/play/B0B28D9248F423CC747F1212E7BFD7B31CB4C41A.mp4
+
+最重要的：
+http://112.5.251.12:80/play/675E3FB4F97B6688ECFE9E446B1437BF26E60069.mp4
+http://112.5.251.12:80/play/107C17872E48566486A4BF07AA755E1C942D26EC.mp4
+http://112.5.251.13:80/play/4F9ACBF7A96573BE6C468EFECBDC551E708E01DA.mp4
+
+
+*redhat2010!@#Funshion*
+6tfcvbNHY^
+todCs1CRY+3
+*redhat2010!@#Funshion*
+
+问题：客户端的ip到tuner为IP1，到oxeye为IP2，IP1 != IP2 
+GET /query/v1/mp4/b5441cd1e3e1e57f864875c2464ccbf3.json?bits=327680&f=z&clifz=aphone&cli=aphone&ver=1.5.7.1&mac=00:1a:96:53:97:25&uid=00:1a:96:53:97:25 HTTP/1.1
+sessionId: sessionId
+Accept-Encoding: gzip,deflate
+Host: jobsfe.funshion.com
+Connection: Keep-Alive
+
+HTTP/1.1 200 OK
+Content-Length: 673
+Connection: Close
+
+{"return":"succ","client":{"ip":"124.207.205.1","sp":"0","loc":"0"},"playlist":[{"bits":"327680","tname":"tv","size":"22119151","urls":["http://61.164.142.198:80/play/5EEAA3FFF01412FAAF3C2EDA7446CA9749394E0D.mp4","http://112.5.251.14:80/play/5EEAA3FFF01412FAAF3C2EDA7446CA9749394E0D.mp4","http://211.162.58.198:80/play/5EEAA3FFF01412FAAF3C2EDA7446CA9749394E0D.mp4","http://221.7.255.182:80/play/5EEAA3FFF01412FAAF3C2EDA7446CA9749394E0D.mp4","http://222.35.249.25:80/play/5EEAA3FFF01412FAAF3C2EDA7446CA9749394E0D.mp4","http://223.82.247.105:80/play/5EEAA3FFF01412FAAF3C2EDA7446CA9749394E0D.mp4","http://58.254.168.84:80/play/5EEAA3FFF01412FAAF3C2EDA7446CA9749394E0D.mp4"]}]}
+
+GET /ecom_mobile/fbuffer?dev=aphone_4.0.3_HS-T96&mac=00:1a:96:53:97:25&ver=1.5.7.1&nt=1&ih=b5441cd1e3e1e57f864875c2464ccbf3&svr=61.164.142.198&ok=0&bpos=15733&btm=3871&drate=-1&sid=1006&nrate=196&msok=0&ptype=0&rt=1375861960&ip=192.168.137.178&cl=1&mid=11348&eid=&vid=&vt=1 HTTP/1.1
+
+HTTP/1.1 200 OK
+Server: nginx/1.2.2
+Date: Wed, 07 Aug 2013 07:52:31 GMT
+Content-Type: text/plain
+Content-Length: 0
+Connection: close
+Expires: Wed, 07 Aug 2013 07:52:31 GMT
+Cache-Control: max-age=0
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+
+问题01：已恢复。
+http://61.137.188.131:80/play/9A1EB8045A3158E39D004C4E3D8EE875D4F7BA41.mp4
+http://61.137.188.134:80/play/E4ED39114D0B3822F469F0DCE810A80C217D90D8.mp4
+
+1375930355000
+http://opendata.baidu.com/api.php?query=1.1.1.1&co=&resource_id=6006&t=1375929891282&ie=utf8&oe=gbk&cb=bd__cbs__a5mfhc&format=json&tn=baidu
+http://opendata.baidu.com/api.php?query=1.1.1.1&co=&resource_id=6006&t=1375930355000&ie=utf8&oe=utf8&cb=bd__cbs__a5mfhc&format=json&tn=baidu
+
+http://counter.sina.com.cn/ip?ip=123.125.89.1
+
+http://whois.pconline.com.cn/jsFunction.jsp?callback=jsShow&ip=1.1.1.1
+
+# lsof -p 25845 -nP | grep dat 
+mediaserv 25845 root   70u      REG    104,81  219560387     19074 /media5/58E974C8894574BBB257D70389C8371B1C77B06B.dat
+mediaserv 25845 root  123u      REG    104,17  149069907     24249 /media1/CA2DF6E2BC4929EDB83C869B2BDEDC25E2D37D9B.dat
+
+
+ps -o majflt,minflt -C mediaserver
