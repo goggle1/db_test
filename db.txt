@@ -500,6 +500,8 @@ mysql> select hashid, file_size/1024/1024/1024 from fs_dat_file where file_size 
 对 macross 库只读权限
 
 mysql macross -h192.168.8.101 -P3317 -upublic -pfunshion -e"select task_hash, create_time from fs_task where state = 'dispatch-failed' or state = 'dispatched' or state = 'dispatching' order by create_time"> pc_task.list 
+mysql macross -h192.168.8.101 -P3317 -upublic -pfunshion -e"select task_hash, create_time+0 from fs_task where state = 'dispatch-failed' or state = 'dispatched' or state = 'dispatching' order by create_time"> pc_task.list 
+
 select task_hash from fs_task where state = 'dispatch-failed' or state = 'dispatched' or state = 'dispatching';
 
 1：pc任务根据mediaid查询hashid
@@ -649,3 +651,5 @@ select a.*, b.room_id, b.ml_room_id, c.room_name from fs_ms_realstate a, fs_serv
 
 
 select * from fs_mobile_dat where create_time >= "2013-07-30 00:00:00" and create_time < "2013-07-31 00:00:00" and (state = 'dispatch-failed' or state = 'dispatched' or state = 'dispatching') 
+
+select a.*, b.room_id, b.ml_room_id, c.room_name from fs_ms_realstate a, fs_server b, fs_server_location c where a.server_id=b.server_id and (b.room_id=c.room_id or b.ml_room_id=c.room_id) order by a.server_id;
